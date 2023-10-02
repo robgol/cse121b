@@ -23,6 +23,7 @@ const imageElement = document.querySelector("img");
 nameElement.innerHTML = `<sytrong>${fullName}</sytrong>`;
 yearElement.textContent = currentYear;
 imageElement.setAttribute('src', profilePicture);
+imageElement.setAttribute('alt', 'Robson Correia');
 
 
 /* Step 5 - Array */
