@@ -69,10 +69,10 @@ myProfile.hobbies.forEach(hobbie => {
 /* Places Lived DataList */
 myProfile.placesLived.forEach(placeLived => {
     let dt = document.createElement('dt');
-    dt.textContent = placeLived.place;
+    dt.innerHTML = `<b>${placeLived.place}</b>`;
 
     let dd = document.createElement('dd');
-    dd.textContent = placeLived.length;
+    dd.innerHTML = `<small>${placeLived.length}</small><br/>`;
 
     document.querySelector("#places-lived").appendChild(dt);    
     document.querySelector("#places-lived").appendChild(dd);    
