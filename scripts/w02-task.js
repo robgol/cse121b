@@ -6,7 +6,7 @@
 
 let fullName = "Robson Correia";
 let currentYear = new Date().getFullYear();
-let profilePicture = "images\\robson.jpg"
+let profilePicture = "images\\robson.jpg";
 
 
 /* Step 3 - Element Variables */
